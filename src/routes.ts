@@ -5,7 +5,7 @@ import ItemsController from './Controllers/ItemsController';
 const routes = express.Router();
 
 const pointsController = new PoitsController();//instanciando pointscontroller
-const itemsController = new ItemsController();
+const itemsController = new ItemsController();//instanciando itemscontrooller
 
 // index: listar vários, show: listar um unico, create, update, delete
 routes.get('/items', itemsController.index);
