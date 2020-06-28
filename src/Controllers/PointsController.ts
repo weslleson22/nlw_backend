@@ -38,7 +38,7 @@ class PointsController{
         return response.json({ point, items});
     
       }
-
+      //criando os points
     async create(request: Request, response: Response){
         const{
             name,
