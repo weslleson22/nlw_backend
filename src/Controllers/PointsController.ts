@@ -3,7 +3,7 @@ import knex from '../database/connection';
 
 //points
 class PointsController{
-
+//criação da listagem de todos os usuarios 
    async index(request: Request, response: Response){
        //cidade, uf, items vamos pegar dos (Querys parms)
         const {city, uf, items}= request.query;
